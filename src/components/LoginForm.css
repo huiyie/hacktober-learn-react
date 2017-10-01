@@ -1,0 +1,23 @@
+.login-form {
+    max-width: 400px;
+    display: table;
+    margin: 0 auto;
+}
+
+.login-form h2 {
+    font-size: 20px;
+}
+
+.login-form input {
+    width: 100%;
+}
+
+.login-form .error {
+    display: inline-block;
+    width: 100%;
+    color: red;
+}
+
+.login-form .error {
+    margin-bottom: 5px;
+}
