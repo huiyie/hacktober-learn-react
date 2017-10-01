@@ -2,7 +2,7 @@
 
 * Help those who are new to open source get exposure
 * Learn something practical and useful, React
-* If you have any feature that you wanted to implement in your web dev projects, feel free to propose it as an issue for this Hacktover Learn React project
+* If you have any feature that you wanted to implement in your web dev projects, feel free to propose it as an issue for this Hacktober Learn React project
 * If you have ideas on how to improve any of the code here, just submit a pull request :-)
 
 ## Some issues I thought of (keep appending!)
