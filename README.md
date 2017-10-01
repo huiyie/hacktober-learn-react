@@ -9,5 +9,6 @@
 
 1. Create basic login component 
 2. Create a nice sidebar to navigate between pages/components
-3. Basic routing
-4. Connect to backend GraphQL (tbc)
+3. Some CRUD dialogs
+4. Basic routing
+5. Connect to backend GraphQL (tbc)
