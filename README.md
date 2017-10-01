@@ -12,3 +12,6 @@
 3. Some CRUD dialogs
 4. Basic routing
 5. Connect to backend GraphQL (tbc)
+
+## How to build
+Run ```npm build && npm start``` on Terminal/Command Line from the project root
