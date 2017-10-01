@@ -43,7 +43,41 @@ class Login extends Component {
     }
 
     handleClick(event) {
-        // stub
+        var inputUsername = this.state.username;
+        var inputPassword = this.state.password;
+
+        // dummy data
+        var users = [];
+        var john = {
+            "username": "johndoe",
+            "password": "123"
+        };
+        var jane = {
+            "username": "janedoe",
+            "password": "456"
+        };
+        users.push(john);
+        users.push(jane);
+        console.log(users);
+
+        
+
+        var index;
+        for (index = 0; index < users.length; index++) {
+            console.log('for loop');
+            if (users[index].username === inputUsername && users[index].password === inputPassword) {
+                console.log('Login successful');
+                var uploadScreen = [];
+                uploadScreen.push(<UploadScreen appContext = {this.props.appContext} />);
+                this.props.appContext.setState({loginPage: [], uploadScreen:uploadScreen});
+                break;
+            }
+            else if (index === users.length - 1) {
+                console.log('Username and password do not match');
+                alert('Username and password do not match');
+                break;
+            }
+        }
     }
 }
 
