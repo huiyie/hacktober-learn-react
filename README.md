@@ -13,5 +13,20 @@
 4. Basic routing
 5. Connect to backend GraphQL (tbc)
 
-## How to build
-Run ```npm build && npm start``` on Terminal/Command Line from the project root
+## Getting started
+
+```
+git clone https://github.com/huiyie/hacktober-learn-react.git
+cd hacktober-learn-react
+npm install # installs required dependencies.
+npm build
+npm start   # launches the server on localhost.
+```
+
+If everything went as planned, the terminal should look like...  
+![Screenshot of a successful npm start in terminal](references/screenshots/npm-start-terminal.png/?raw=true "Screenshot of npm start")
+
+...and visiting the URL that appears on the terminal from a browser...  
+![Screenshot of Browser upon npm start](references/screenshots/npm-start-browser.png/?raw=true "Screenshot of npm start")
+
+To start making changes check out <a href="https://github.com/huiyie/hacktober-learn-react/blob/master/CONTRIBUTING.md" target="_blank"><b>CONTRIBUTING.md</b></a>.
