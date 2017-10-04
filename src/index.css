@@ -3,3 +3,18 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+#routing-tab {
+  background-color: #222;
+  padding-left: 30px;
+}
+
+#routing-tab .route{
+  display: inline-block;
+  font-size: 28px;
+  padding: 20px 30px;
+}
+
+#routing-tab .route a {
+  color: white;
+}
