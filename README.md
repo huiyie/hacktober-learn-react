@@ -30,3 +30,7 @@ If everything went as planned, the terminal should look like...
 ![Screenshot of Browser upon npm start](references/screenshots/npm-start-browser.png/?raw=true "Screenshot of npm start")
 
 To start making changes check out <a href="https://github.com/huiyie/hacktober-learn-react/blob/master/CONTRIBUTING.md" target="_blank"><b>CONTRIBUTING.md</b></a>.
+
+## References
+
+* [React Router v4](https://medium.com/@pshrmn/a-simple-react-router-v4-tutorial-7f23ff27adf) tutorial
