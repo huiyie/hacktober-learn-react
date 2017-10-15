@@ -8,6 +8,7 @@ import { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Home from './Home';
 import About from './About';
+import LoginForm from './LoginForm';
 
 export default class Main extends Component {
     render() {
@@ -15,6 +16,7 @@ export default class Main extends Component {
             <Switch>
                 <Route exact path="/" component={Home} />
                 <Route path="/about" component={About} />
+                <Route path="/login" component={LoginForm} />
             </Switch>
         );
     };
