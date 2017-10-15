@@ -3,6 +3,8 @@ import AppBar from 'material-ui/AppBar';
 import Drawer from 'material-ui/Drawer';
 import MenuItem from 'material-ui/MenuItem';
 import Link from 'react-router-dom/Link'
+import ActionHome from 'material-ui/svg-icons/action/home';
+import SocialPerson from 'material-ui/svg-icons/social/person';
 
 const styles = {
   a: {
@@ -31,8 +33,8 @@ export default class CustomAppBar extends React.Component {
           open={this.state.open}
           onRequestChange={(open) => this.setState({open})}
         >
-          <Link to="/" style={styles.a}><MenuItem onClick={this.toggleDrawer}>Home</MenuItem></Link>
-          <Link to="/about" style={styles.a}><MenuItem onClick={this.toggleDrawer}>About</MenuItem></Link>
+          <Link to="/" style={styles.a}><MenuItem onClick={this.toggleDrawer} leftIcon={<ActionHome />}>Home</MenuItem></Link>
+          <Link to="/about" style={styles.a}><MenuItem onClick={this.toggleDrawer} leftIcon={<SocialPerson />}>About</MenuItem></Link>
         </Drawer>
       </div>
     )
