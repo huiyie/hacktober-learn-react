@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import TextField from 'material-ui/TextField';
+import RaisedButton from 'material-ui/RaisedButton';
 import './LoginForm.css';
 
 class LoginForm extends Component {
@@ -26,9 +28,10 @@ class LoginForm extends Component {
                 })}
 
                 <form onSubmit={this._handleSubmit}>
-                    <input type="text" placeholder="Username" name="username" onKeyUp={this._updateState.bind(this)}/>
-                    <input type="password" placeholder="Password" name="password" onKeyUp={this._updateState.bind(this)}/>
-                    <input type="submit" value="Login" />
+                    <TextField name="username" floatingLabelText="Username" onChange={this._updateState.bind(this)} />
+                    <TextField name="password" floatingLabelText="Password" type="password" defaultValue="" onChange={this._updateState.bind(this)} />
+                    <br />
+                    <RaisedButton label="Login" onClick={this._handleSubmit} />
                 </form>
             </div>);
     }

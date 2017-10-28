@@ -26,7 +26,7 @@ export default class CustomAppBar extends React.Component {
     return (
       <div>
         <AppBar
-          title={<a href="/" style={styles.a}>Hacktober Learn React</a>}
+          title={<Link to="/" style={styles.a}>Hacktober Learn React</Link>}
           onLeftIconButtonTouchTap={this.toggleDrawer}
         />
         <Drawer
