@@ -1,10 +1,16 @@
 import React, { Component } from 'react';
+import { Switch, Route } from 'react-router-dom';
+
 import logo from './logo.svg';
 import headerBackground from './logo-back.jpg';
 import './App.css';
-import Main from './components/Main';
+
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import AppBar from './components/AppBar';
+
+import Home from './screens/Home';
+import About from './screens/About';
+import Login from './screens/Login';
 
 class App extends Component {
   render() {
@@ -23,7 +29,13 @@ class App extends Component {
               </div>
               <h1 className="App-title">Learn React in Hacktoberfest 2017</h1>
             </header>
-            <Main />
+
+            <Switch>
+                <Route exact path="/" component={Home} />
+                <Route path="/about" component={About} />
+                <Route path="/login" component={Login} />
+            </Switch>
+
           </div>
         </div>
       </MuiThemeProvider>

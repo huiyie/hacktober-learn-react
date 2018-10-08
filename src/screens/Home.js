@@ -9,7 +9,7 @@ export default class Home extends Component {
                 <p className="App-intro">
                     To get started, edit <code>src/App.js</code> and save to reload.
                 </p>
-                Navigate to <Link to="/about">About</Link> page.
+                Navigate to <Link to="/about">About</Link> page or <Link to="/login">Login</Link>
             </div>
         );
     }
